@@ -1,0 +1,75 @@
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+ }
+
+ body {
+     background-color: #6B8068;
+ }
+ 
+ .name {
+     text-align: center;
+     margin-top: 10px;
+     color: #fff;
+     
+ }
+ 
+ label {
+     padding:  12px 12px 12px 0;
+     display: inline-block;
+ }
+
+ #icon-clock, #icon-date {
+     color: #6B8068;
+ }
+
+ hr {
+     background-color: #6B8068;
+ }
+
+ .container {
+     border-radius: 5px;
+     background-color: #fff;
+     padding: 60px;
+ }
+ 
+ .col-25 {
+     float: left;
+     width: 25%;
+     color: #6B8068;
+     margin-top: 6px;
+ }
+ 
+ .col-75 {
+     float: left;
+     width: 75%;
+     margin-top: 6px;
+ }
+
+ .fileUpload, #from_currency, #from_ammount, #to_currency, #to_ammount {
+     color: #6B8068;
+     font-weight: bold;
+ }
+
+ #swap {
+     color: #fff;
+     cursor: pointer;
+     background-color: #6B8068;
+ }
+ 
+ .row::after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ @media screen and (min-width: 200px) {
+    .col-25, .col-75, hr, h5, .fileUpload, #tax_info, #from_currency, #from_ammount, #swap, #to_currency, #to_ammount, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+ }
+
+ 
